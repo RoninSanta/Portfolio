@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://RoninSanta.github.io',
+  homepage: 'https://RoninSanta.github.io/Portfolio',
 }
 
 const about = {

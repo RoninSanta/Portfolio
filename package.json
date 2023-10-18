@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "1.22.19",
   "private": true,
-  "homepage": "https://RoninSanta.github.io",
+  "homepage": "https://RoninSanta.github.io/Portfolio",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
