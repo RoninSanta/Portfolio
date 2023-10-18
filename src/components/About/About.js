@@ -1,15 +1,11 @@
-import React from 'react';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import { about } from '../../portfolio';
-import './About.css';
+import React from 'react'
+import GitHubIcon from '@material-ui/icons/GitHub'
+import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import { about } from '../../portfolio'
+import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about;
-
-  const handleDownloadResume = () => {
-    window.open('https://github.com/RoninSanta/Portfolio/blob/main/assets/Resume.pdf', '_blank');
-  };
+  const { name, role, description, social } = about
 
   return (
     <div className='about center'>
@@ -23,12 +19,6 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {resume && (
-          <button type='button' className='btn btn--outline' onClick={handleDownloadResume}>
-            Download Resume
-          </button>
-        )}
-
         {social && (
           <>
             {social.github && (
@@ -51,10 +41,17 @@ const About = () => {
               </a>
             )}
           </>
-        }
+        )}
       </div>
-    </div>
-  );
-};
 
-export default About;
+      <a
+        href='https://github.com/your-username/your-repo-name/blob/main/path/to/your/resume.pdf'
+        download='resume.pdf'
+      >
+        Download Resume
+      </a>
+    </div>
+  )
+}
+
+export default About
