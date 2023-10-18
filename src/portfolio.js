@@ -5,7 +5,7 @@ const header = {
 const about = {
   name: 'Joseph Shen Fan',
   description:
-    'I am passionate about translating my creative problem-solving skills into impactful digital solutions. My journey in computer science began with diverse work experiences, where I embraced a multitude of programming languages and real-world challenges. This inspired me to embark on a formal education in Computer Science, which I graduated with First-Class Honors.',
+    'My journey in computer science began with diverse work experiences, where I embraced a multitude of programming languages and real-world challenges. This inspired me to embark on a formal education in Computer Science, which I graduated with First-Class Honors. I am passionate about this field and cannot wait to translate my creative skills into impactful solutions.',
   resume: 'https://example.com',
   social: {
     linkedin: 'linkedin.com/in/joseph-shen-4267a8b0',
