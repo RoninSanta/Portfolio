@@ -45,8 +45,8 @@ const About = () => {
       </div>
 
       <a
-        href='https://github.com/your-username/your-repo-name/blob/main/path/to/your/resume.pdf'
-        download='resume.pdf'
+        href='https://github.com/RoninSanta/Portfolio/blob/main/assets/Resume.pdf'
+        download='Resume.pdf'
       >
         Download Resume
       </a>
