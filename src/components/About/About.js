@@ -14,7 +14,7 @@ const About = () => {
     // Set the href attribute to the URL of your PDF file on GitHub Pages
     link.setAttribute(
       'href',
-      'https://roninsanta.github.io/Portfolio/assets/Resume.pdf'
+      'https://github.com/RoninSanta/Portfolio/blob/main/assets/Resume.pdf'
     )
 
     // Set the download attribute with the desired file name
