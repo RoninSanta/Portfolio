@@ -1,3 +1,4 @@
+import React from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
@@ -5,6 +6,23 @@ import './About.css'
 
 const About = () => {
   const { name, role, description, resume, social } = about
+
+  const handleDownloadResume = () => {
+    // Create an anchor element
+    const link = document.createElement('a')
+
+    // Set the href attribute to the URL of your PDF file on GitHub Pages
+    link.setAttribute(
+      'href',
+      'https://roninsanta.github.io/Portfolio/assets/Resume(with cover letter).pdf'
+    )
+
+    // Set the download attribute with the desired file name
+    link.setAttribute('download', 'Resume(with cover letter).pdf')
+
+    // Simulate a click event to trigger the download
+    link.click()
+  }
 
   return (
     <div className='about center'>
@@ -19,11 +37,13 @@ const About = () => {
 
       <div className='about__contact center'>
         {resume && (
-          <a href={resume}>
-            <span type='button' className='btn btn--outline'>
-              Resume
-            </span>
-          </a>
+          <button
+            type='button'
+            className='btn btn--outline'
+            onClick={handleDownloadResume}
+          >
+            Download Resume
+          </button>
         )}
 
         {social && (
