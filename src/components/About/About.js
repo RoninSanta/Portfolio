@@ -1,11 +1,8 @@
-import React from 'react'
-import GitHubIcon from '@material-ui/icons/GitHub'
-import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, social } = about
+  const { name, role, description, resume, social } = about
 
   return (
     <div className='about center'>
@@ -19,37 +16,14 @@ const About = () => {
       <p className='about__desc'>{description && description}</p>
 
       <div className='about__contact center'>
-        {social && (
-          <>
-            {social.github && (
-              <a
-                href={social.github}
-                aria-label='github'
-                className='link link--icon'
-              >
-                <GitHubIcon />
-              </a>
-            )}
-
-            {social.linkedin && (
-              <a
-                href={social.linkedin}
-                aria-label='linkedin'
-                className='link link--icon'
-              >
-                <LinkedInIcon />
-              </a>
-            )}
-          </>
+        {resume && (
+          <a href={resume}>
+            <span type='button' className='btn btn--outline'>
+              Download Resume
+            </span>
+          </a>
         )}
       </div>
-
-      <a
-        href='https://github.com/RoninSanta/Portfolio/blob/main/assets/Resume.pdf'
-        download='Resume.pdf'
-      >
-        Download Resume
-      </a>
     </div>
   )
 }

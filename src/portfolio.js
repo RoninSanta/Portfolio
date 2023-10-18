@@ -6,7 +6,7 @@ const about = {
   name: 'Joseph Shen Fan',
   description:
     'My journey in computer science began with diverse past work experiences, where I was introduced the concept of programming and real-world challenges. This inspired me to embark on a formal education in Computer Science, which I graduated with First-Class Honors. I am passionate about this field and cannot wait to translate my creative skills into impactful solutions.',
-  resume: 'https://example.com'
+  resume: 'https://github.com/RoninSanta/Portfolio/blob/main/assets/Resume.pdf',
 }
 
 const projects = [
@@ -81,8 +81,9 @@ const skills = [
 const contact = {
   email: 'johnsmith@mail.com',
   social: {
-    linkedin: 'linkedin.com/in/joseph-shen-4267a8b0',
+    linkedin: ' https://linkedin.com/in/joseph-shen-4267a8b0',
     github: 'https://github.com/RoninSanta',
+    
   },
 }
 
