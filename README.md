@@ -52,11 +52,13 @@ This is my attempt in recreating a platforming game similar to 'Mario' with \*_J
 ## Education
 
 **Singapore Institude of Management, University of London** _Oct 2020 - Oct2023_
+
 Bachelor's in Computer Science
 
 - 1st Class Honors
 
 **Nanyang Polytechnic** _April 2013 – Mar 2016_
+
 Diploma in Electrical, Computer and Communications Engineering
 
 - Edusave Good Progress Award
@@ -74,5 +76,12 @@ Diploma in Electrical, Computer and Communications Engineering
 &nbsp;
 
 ## Skills
-
-_JavaScript· Machine Learning · Database · SQL · HTML/CSS · Python · C++ · Artificial Intelligence · React Module _
+- JavaScript
+- Machine Learning
+- Database
+- SQL
+- HTML/CSS
+- Python
+- C++
+- Artificial Intelligence
+- React Module 
