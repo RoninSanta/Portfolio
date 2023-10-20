@@ -73,6 +73,11 @@ Diploma in Electrical, Computer and Communications Engineering
 - Student Relations and Team Building Camp Leader
 - Freshman Orientation Camp Event Organizer
 
+**Youth Leader, Youth Corps Singapore** _May 2019 – Present_
+
+• Mentor and provide guidance for new batches of youth leaders.
+• Initiate, propose and execute workshops and events to increase awareness of mental health amongst youths.
+  
 &nbsp;
 
 ## Skills
