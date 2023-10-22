@@ -28,7 +28,7 @@ const Contact = () => {
             target='_blank'
             rel='noopener noreferrer'
           >
-            www.Example.com
+            https://linkedin.com/in/joseph-shen-4267a8b0,
           </a>
         </div>
         <div className='social-link'>
