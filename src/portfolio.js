@@ -79,7 +79,7 @@ const skills = [
 ]
 
 const contact = {
-  email: 'johnsmith@mail.com',
+  email: 'JosephShenFan@gmail.com',
   social: {
     linkedin: ' https://linkedin.com/in/joseph-shen-4267a8b0',
     github: 'https://github.com/RoninSanta',
